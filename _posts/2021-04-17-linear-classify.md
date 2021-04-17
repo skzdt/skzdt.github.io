@@ -3,6 +3,8 @@ mermaid: true
 title: linear-classify
 ---
 
+test blog
+
 <!-- more -->
 
 - [Linear Classification](#linear-classification)
