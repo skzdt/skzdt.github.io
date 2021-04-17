@@ -322,7 +322,7 @@ p = np.exp(f) / np.sum(np.exp(f)) # safe to do, gives the correct answer
 A picture might help clarify the distinction between the Softmax and SVM classifiers:
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/svmvssoftmax.png">
+  <img src="https://cs231n.github.io/assets/svmvssoftmax.png">
   <div class="figcaption">Example of the difference between the SVM and Softmax classifiers for one datapoint. In both cases we compute the same score vector <b>f</b> (e.g. by matrix multiplication in this section). The difference is in the interpretation of the scores in <b>f</b>: The SVM interprets these as class scores and its loss function encourages the correct class (class 2, in blue) to have a score higher by a margin than the other class scores. The Softmax classifier instead interprets the scores as (unnormalized) log probabilities for each class and then encourages the (normalized) log probability of the correct class to be high (equivalently the negative of it to be low). The final loss for this example is 1.58 for the SVM and 1.04 (note this is 1.04 using the natural logarithm, not base 2 or base 10) for the Softmax classifier, but note that these numbers are not comparable; They are only meaningful in relation to loss computed within the same classifier and with the same data.</div>
 </div>
 
