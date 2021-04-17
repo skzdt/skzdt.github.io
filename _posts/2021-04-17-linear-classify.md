@@ -1,10 +1,7 @@
 ---
 mermaid: true
-mathjax: true
 title: linear-classify
 ---
-
-Table of Contents:
 
 - [Linear Classification](#linear-classification)
   - [Parameterized mapping from images to label scores](#parameterized-mapping-from-images-to-label-scores)
