@@ -3,6 +3,8 @@ mermaid: true
 title: linear-classify
 ---
 
+<!-- more -->
+
 - [Linear Classification](#linear-classification)
   - [Parameterized mapping from images to label scores](#parameterized-mapping-from-images-to-label-scores)
   - [Interpreting a linear classifier](#interpreting-a-linear-classifier)
