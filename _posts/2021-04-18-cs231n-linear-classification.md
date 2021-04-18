@@ -99,9 +99,9 @@ Add **regularization penalty** $R(W)$
 
 most common **L2** $R(W) = \sum_k\sum_l W_{k,l}^2$
 
-**L1** $R(W) = \sum_k\sum_l |W_{k,l}|$
+**L1** $R(W) = \sum_k\sum_l \vert W_{k,l}\vert$
 
-**Elastic net(L1+L2)** $R(W) = \sum_k\sum_l \beta W_{k,l}^2+|W_{k,l}|$
+**Elastic net(L1+L2)** $R(W) = \sum_k\sum_l \beta W_{k,l}^2+\vert W_{k,l}\vert$
 
 $$L =  \underbrace{ \frac{1}{N} \sum_i L_i }_\text{data loss} + \underbrace{ \lambda R(W) }_\text{regularization loss} \\\\$$
 
