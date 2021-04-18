@@ -1,10 +1,8 @@
 ---
-title: cs231n notes Linear Classification
+title: cs231n - Linear Classification
 
 
 ---
-
-加油!
 
 <!-- more -->
 
@@ -89,20 +87,39 @@ for $f(x_i; W) =  W x_i$
 
 $$L_i = \sum_{j\neq y_i} \max(0, w_j^T x_i - w_{y_i}^T x_i + \Delta)$$
 
-**Regularization**
-
 $$L = \dfrac{1}{N} \sum_i L_i$$
+
+first time $L_i \approx K - 1$(?)
+
+**Regularization**
 
 Suppose that we have a dataset and a set of parameters $W$ that correctly classify every example. The issue is that this set of $W$ is not necessarily unique: there might be many similar $W$ that correctly classify the examples. 
 
 Add **regularization penalty** $R(W)$
 
-most common **L2** $R(W) = \sum_k\sum_l W_{k,l}^2$
+**L2**(most common) : $R(W) = \sum_k\sum_l W_{k,l}^2$
 
-**L1** $R(W) = \sum_k\sum_l \vert W_{k,l}\vert$
+**L1** :$R(W) = \sum_k\sum_l \vert W_{k,l}\vert$
 
 **Elastic net(L1+L2)** $R(W) = \sum_k\sum_l \beta W_{k,l}^2+\vert W_{k,l}\vert$
 
 $$L =  \underbrace{ \frac{1}{N} \sum_i L_i }_\text{data loss} + \underbrace{ \lambda R(W) }_\text{regularization loss} \\\\$$
 
-we append the regularization penalty to the loss objective, weighted by a hyperparameter $\lambda$
+**data loss**: model prediction should match **training data**
+
+**regularization loss**: model should be 'simple' (Occam’s Razor)
+
+Improve the generalization performance of the classifiers on test images and lead to less *overfitting*.
+
+it is common to only regularize the weights $W$ but not the biases $b$.
+
+## Practical Considerations
+
+see [https://cs231n.github.io/linear-classify/#practical-considerations](https://cs231n.github.io/linear-classify/#practical-considerations)
+
+## Softmax classifier
+
+**cross-entropy loss** 交叉熵损失
+
+$$L_i = -\log\left(\frac{e^{f_{y_i}}}{ \sum_j e^{f_j} }\right) \hspace{0.5in} \text{or equivalently} \hspace{0.5in} L_i = -f_{y_i} + \log\sum_j e^{f_j}$$
+

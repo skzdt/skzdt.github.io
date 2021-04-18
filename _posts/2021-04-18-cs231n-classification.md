@@ -1,9 +1,7 @@
 ---
-title: cs231n notes Image Classification
+title: cs231n - Image Classification: Data-driven Approach, KNN
 
 ---
-
-加油!
 
 <!-- more -->
 
@@ -124,7 +122,7 @@ Intuitively, higher values of **k** have a smoothing effect that makes the class
 
 1. **Hyper-parameters**
 
-   Choices about the algorithm that we set rather than learn, such as **K**(K-Nearest Neighbor), distance metric.
+   Choices about the algorithm that we set rather than learn, such as **K** (K-Nearest Neighbor), distance metric.
 
    Very problem-dependent.
 
