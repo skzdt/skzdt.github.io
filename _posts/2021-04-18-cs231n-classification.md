@@ -1,5 +1,5 @@
 ---
-title: cs231n-notes-classification
+title: cs231n notes Image Classification
 
 ---
 
@@ -135,4 +135,7 @@ Intuitively, higher values of **k** have a smoothing effect that makes the class
 - Very slow at test time(on images, there are too many pixels.)
 - Distance metrics on pixels are not informative.
 
-***So, K-Nearest Neighbor on images never used.\***
+**So, K-Nearest Neighbor on images is never used.**
+
+
+
