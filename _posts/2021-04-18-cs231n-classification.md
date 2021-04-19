@@ -1,5 +1,5 @@
 ---
-title: cs231n - Image Classification: Data-driven Approach, KNN
+title: cs231n - Image Classification - Data-driven Approach
 ---
 
 <!-- more -->
