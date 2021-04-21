@@ -15,7 +15,6 @@ title: NTU_ML - Deep Learning General Guidance
 
 2. Optimazation
 
-   待补
 
 ![image-20210421235303211](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210421235303.png)
 
