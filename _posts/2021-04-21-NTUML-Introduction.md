@@ -1,5 +1,5 @@
 ---
-title: NTU_ML - Introduction of ML/DL
+title: NTUML - Introduction of ML/DL
 
 ---
 

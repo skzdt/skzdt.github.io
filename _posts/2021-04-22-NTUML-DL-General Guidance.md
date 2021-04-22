@@ -1,5 +1,5 @@
 ---
-title: NTU_ML - Deep Learning General Guidance
+title: NTUML - Deep Learning General Guidance
 
 ---
 
