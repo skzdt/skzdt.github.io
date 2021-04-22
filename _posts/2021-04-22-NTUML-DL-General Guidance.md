@@ -28,3 +28,38 @@ title: NTUML - Deep Learning General Guidance
 
 ---
 
+**Overfitting**
+
+![image-20210422154238604](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422154238.png)
+
+![image-20210422154437411](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422154437.png)
+
+![image-20210422154537612](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422154537.png)
+
+**Data augmentation** : 通过对问题的理解 分析性的增加数据
+
+例如图片翻转, 取出来一部分放大
+
+augment要有道理 例如上下颠倒是不合理的
+
+**Constrained model**
+
+![image-20210422154931496](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422154931.png)
+
+过度限制会导致 **model bias**
+
+![image-20210422155130080](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422155130.png)
+
+**Cross Validation**
+
+Training set 分成 Training set 和 Validation set
+
+如何分? 引入
+
+![image-20210422155912452](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422155912.png)
+
+**mismatch**
+
+训练资料和测试资料分布完全不同
+
+![image-20210422160129200](https://lllthhhh-aliyun-oss.oss-cn-beijing.aliyuncs.com/img/20210422160129.png)
