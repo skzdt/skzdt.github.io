@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-测试一下显示效果
+碎碎念频道 dC5tZS9hdmFBcmNoMG4=
 
 友链:
 
@@ -12,5 +12,5 @@ title: About
 [SincereXIA](http://blog.sumblog.cn/)
 
 
-<iframe height="700" src="https://www.yunyoujun.cn/air-conditioner/"></iframe>
+<iframe height="700" src="https://ac.yunyoujun.cn"></iframe>
 
